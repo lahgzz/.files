@@ -1,1 +1,25 @@
+# ignore all
 *
+
+# except
+## extentions
+!.gitkeep
+## files
+### bash
+!.bash_logout
+!.bash_profile
+!.bashrc
+### git
+!.gitconfig
+### zsh
+!.zshrc
+### vscode
+### fzf
+!*key-bindings.zsh
+## folders
+!*.config/
+!*.fzf/
+!*.gnupg/
+!*.password-store/
+!*.ssh/
+!*.fzf/
