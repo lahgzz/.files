@@ -76,8 +76,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-source $HOME/.fzf/key-bindings.zsh
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -101,10 +99,3 @@ source $HOME/.fzf/key-bindings.zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias ls="exa"
-alias cat="bat"
-
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
